@@ -136,7 +136,7 @@ Here, we define the type constructor `Bool` as the resulting type corresponding 
 ```haskell
 data Either a b = Left a | Right b
 ```
-Here, the type constructor either hold either a value of type `a` or of type `b`, corresponding to the value constructors `Left` and `Right`. We will revisit this idea (and `Either`) when talk about products and coproducts.
+Here, the type constructor `Either` holds either a value of type `a` or of type `b`, corresponding to the value constructors `Left` and `Right`. We will revisit this idea (and `Either`) when talk about products and coproducts.
 
 A type class is a _common interface for types_. It defines a family of types that support the same operations. For example, a type class for objects that support equality is defined as:
 ```haskell
